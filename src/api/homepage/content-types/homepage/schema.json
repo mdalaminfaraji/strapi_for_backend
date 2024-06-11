@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "homepage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "valueList": {
+      "type": "blocks"
+    },
+    "isHidden": {
+      "type": "boolean"
+    },
+    "BookList": {
+      "type": "json"
+    },
+    "Age": {
+      "type": "integer"
+    },
+    "Email": {
+      "type": "email",
+      "default": "alaminice@gmail.com",
+      "required": true,
+      "unique": true
+    },
+    "Buying": {
+      "type": "date"
+    },
+    "Password": {
+      "type": "password"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "SelectedBook": {
+      "type": "enumeration",
+      "enum": [
+        "scientific",
+        "economic",
+        "physics",
+        "chemistry"
+      ]
+    },
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_fruit_collections_catagories",
+  "info": {
+    "displayName": "catagory",
+    "icon": "car",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "string"
+    }
+  }
+}

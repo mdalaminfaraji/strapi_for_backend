@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_fruit_collections_collections",
+  "info": {
+    "displayName": "collection",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "Mango": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "mangoCategory": {
+      "displayName": "catagory",
+      "type": "component",
+      "repeatable": true,
+      "component": "fruit-collections.catagory"
+    }
+  }
+}
