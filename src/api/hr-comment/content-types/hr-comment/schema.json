@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hr_comments",
+  "info": {
+    "singularName": "hr-comment",
+    "pluralName": "hr-comments",
+    "displayName": "HrComment"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    }
+  }
+}
